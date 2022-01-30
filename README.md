@@ -13,6 +13,12 @@
 
 <p>just open index.html in public folder.<p>
 
+<ul>
+    <li><a href="https://fontawesome.com/" target="_blank">Fontawesome</a></li>
+    <li><a href="https://sass-lang.com/" target="_blank">sass</a>
+    <li><a href="https://gulpjs.com/" target="_blank">gulp</a>
+</ul>
+
 ## 📖 Project structure
 
     .
