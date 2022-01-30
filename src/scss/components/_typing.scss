@@ -1,0 +1,24 @@
+.typing__container{
+    color: #FFFFFF;
+}
+
+.typing__text{
+    border-right: 2px solid #FFFFFF;
+    font-size: 1.5rem;
+    padding-right: 10px;
+    cursor: default;
+}
+
+/* Animation */
+.typing__text{
+  animation: blinkTextCursor 1000ms steps(44) infinite normal;
+}
+
+@keyframes blinkTextCursor{
+    from{
+        border-right-color: rgba(255,255,255,.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
