@@ -13,7 +13,12 @@
 }
 
 @media screen and (max-width: 480px) {
-    .button__container {
+    .button__container{
+        padding: 1rem 0;
         flex-direction: column;
+    }
+
+    .button {
+        font-size: 0.8em;
     }
 }
