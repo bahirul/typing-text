@@ -1,4 +1,5 @@
 .typing__container{
+    padding: 0 1rem;
     color: #FFFFFF;
 }
 
@@ -7,6 +8,12 @@
     font-size: 1.5rem;
     padding-right: 10px;
     cursor: default;
+}
+
+@media screen and (max-width: 480px) {
+    .typing__text {
+        font-size: 1rem;
+    }
 }
 
 /* Animation */

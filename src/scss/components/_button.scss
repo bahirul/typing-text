@@ -1,12 +1,19 @@
 .button__container{
+    display: flex;
+    gap: 1rem;
     text-align: center;
-    padding: 4rem 0;
+    padding: 4rem 1rem;
 }
-
 
 .button {
     padding: 10px 20px;
     background-color: #DFDFDF;
     text-decoration: none;
     color: #242323;
+}
+
+@media screen and (max-width: 480px) {
+    .button__container {
+        flex-direction: column;
+    }
 }
